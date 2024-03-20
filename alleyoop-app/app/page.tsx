@@ -34,18 +34,8 @@ export default function CardWithForm() {
               <Input id="name" placeholder="Ex: John Doe " />
             </div>
             <div className="flex flex-col space-y-1.5">
-              <Label htmlFor="framework">Framework</Label>
-              <Select>
-                <SelectTrigger id="framework">
-                  <SelectValue placeholder="Select" />
-                </SelectTrigger>
-                <SelectContent position="popper">
-                  <SelectItem value="next">Next.js</SelectItem>
-                  <SelectItem value="sveltekit">SvelteKit</SelectItem>
-                  <SelectItem value="astro">Astro</SelectItem>
-                  <SelectItem value="nuxt">Nuxt.js</SelectItem>
-                </SelectContent>
-              </Select>
+              <Label htmlFor="framework">Password</Label>
+              <Input id="password" placeholder="password" type="password"/>
             </div>
           </div>
         </form>
