@@ -1,5 +1,12 @@
 .map-container {
-    height: 800px;
-    width: 800px;
+    height: 400px;
+    width: 400px;
+    padding: 200px;
+  }
+
+
+  button {
+    border: solid black 2px;
+    
   }
   
