@@ -1,5 +1,6 @@
 
 import React, { useRef, useEffect, useState } from 'react';
+import 'mapbox-gl/dist/mapbox-gl.css'
 import mapboxgl from 'mapbox-gl'; 
 import * as dotenv from 'dotenv'
 import { error } from 'console';
